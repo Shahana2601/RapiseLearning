@@ -1,0 +1,75 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": true,
+  "Name": "subTest1.rest",
+  "BaseName": "subTest1",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Demo_Post",
+      "Url": "https://api.restful-api.dev/objects",
+      "Method": "POST",
+      "Body": "{\r\n  \"name\": \"{name}\",\r\n  \"data\": {\r\n    \"year\": \"{year}\",\r\n    \"price\": \"{price}\",\r\n    \"CPU model\": \"{CPU model}\",\r\n    \"Hard disk size\": \"{Hard disk size}\"\r\n  }\r\n}",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "name",
+          "TokenName": "{name}",
+          "Value": "Apple MacBook Pro 16"
+        },
+        {
+          "Name": "year",
+          "TokenName": "{year}",
+          "Value": "2019"
+        },
+        {
+          "Name": "price",
+          "TokenName": "{price}",
+          "Value": "1849"
+        },
+        {
+          "Name": "CPU model",
+          "TokenName": "{CPU model}",
+          "Value": "Intel Core i9"
+        },
+        {
+          "Name": "Hard disk size",
+          "TokenName": "{Hard disk size}",
+          "Value": "1 TB"
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Demo_Get_By_Id",
+      "Url": "https://api.restful-api.dev/objects/7",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": []
+    }
+  ]
+}

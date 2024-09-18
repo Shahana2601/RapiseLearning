@@ -1,0 +1,13 @@
+# ScenarioLayer-1
+ok 1 - Play RVL@ScenarioLayer-1
+# When executing Demo post
+ok 2 - subTest1_Demo_Post.DoExecute()
+# And fetching the resposne body
+ok 3 - Then validating the name is Not NULL
+ok 4 - And validating name is qual or not
+ok 5 - And validating id not null
+ok 6 - And validating year created equal or not
+ok 7 - And validate price is not null
+ok 8 - And validating status code 200 or not
+ok 9 - And validate Content_Type present or not
+ok 10 - ScenarioLayer-1
