@@ -60,8 +60,47 @@
       "ProxyUser": null,
       "ProxyPwd": null,
       "Name": "Demo_Get_By_Id",
-      "Url": "https://api.restful-api.dev/objects/7",
+      "Url": "https://api.restful-api.dev/objects/ff80818192093efb0192099c3c7d0140",
       "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": []
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Demo_Patch_By_Id",
+      "Url": "https://api.restful-api.dev/objects/ff80818192093efb0192099c3c7d0140",
+      "Method": "PATCH",
+      "Body": "{\r\n   \"name\": \"Apple MacBook Pro 16 (Updated Name)\"\r\n}",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Demo_Delete_By_Id",
+      "Url": "https://api.restful-api.dev/objects/ff80818192093efb0192097825a100de",
+      "Method": "DELETE",
       "Body": "",
       "Credential": null,
       "BeforeCallCommon": null,

@@ -1,0 +1,21 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-20 14:53:00.702"/>
+<log type="Test" name="Scenario-PostUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Test.sstest"  at="2024-09-20 14:53:01.018"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-PostUser200" status="Pass" comment=""  at="2024-09-20 14:53:01.022"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-20 14:53:01.072"/>
+<log type="Assert" name="subTest2_Post_Data.DoExecute()" status="Pass"  at="2024-09-20 14:53:01.386"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: 887676755543
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-20 14:53:01.394"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="S Chandrakanth==S Chandrakanth"  at="2024-09-20 14:53:01.404"><data type="text">AssertEqual</data>
+<data type="text">S Chandrakanth</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Test" name="Scenario-PostUser200" status="Pass" closed="Scenario-PostUser200" _guid="undefined"  at="2024-09-20 14:53:01.409" comment="Passed:3 Failed:0 Time:0.627s" />

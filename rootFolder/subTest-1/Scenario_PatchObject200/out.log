@@ -1,0 +1,26 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario_PatchObject200 (-2)
+###Play RVL@Scenario_PatchObject200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\Scenario_PatchObject200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\Scenario_PatchObject200\Main.rvl.xlsx:RVL, 12 source rows 0 errors
+Looking for object:Tester
+###When executing demo Patch method (-2)
+Looking for object:subTest1_Demo_Patch_By_Id
+subTest1_Demo_Patch_By_Id.DoExecute()
+DoExecute: Error Returned from Server 'error code: 504'
+###subTest1_Demo_Patch_By_Id.DoExecute() (0)
+Test stopped on error: subTest1_Demo_Patch_By_Id.DoExecute()
+FAILURE IN SCRIPT: Error calling function demoPatch: -10
+###Error calling function demoPatch: -10 (0)
+Test stopped on error: Error calling function demoPatch: -10
+###Screen flow (-2)
+###Test Failed: 0 (-2)
+###Scenario_PatchObject200 (0)
+Test execution done
+##############################################################
+Test Fail: Scenario_PatchObject200,  (Passed:1 Failed:2 Time:61.331s)
+Test Session Status: Fail Time: 62.815s
+##############################################################

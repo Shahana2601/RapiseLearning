@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="WGMMTDO2" t="">
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="5EYRQKVN" t="">
   <ScriptPath>Main.js</ScriptPath>
   <UserFunctionsPath>..\Common.js</UserFunctionsPath>
   <ObjectsPath>..\Objects.js</ObjectsPath>
-  <ReportPath>subTest-1.trp</ReportPath>
+  <ReportPath>subTest-2.trp</ReportPath>
   <CommandInterval>100</CommandInterval>
   <IterationsCount>1</IterationsCount>
   <StopOnError>true</StopOnError>
@@ -28,7 +28,17 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Scenario-GetAllObject200</Name>
+        <RealFolder>true</RealFolder>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath>Scenario-GetAllObject200</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
         <Path>..\Common.js</Path>
@@ -43,16 +53,13 @@
         <Path>..\Objects.js</Path>
       </TestFile>
       <TestFile>
-        <Path>subTest1.rest</Path>
+        <Path>subTest2.rest</Path>
       </TestFile>
       <TestFile>
-        <Path>ScenarioLayer-1\Test.sstest</Path>
+        <Path>Scenario-GetAllObject200\Test.sstest</Path>
       </TestFile>
       <TestFile>
-        <Path>ScenarioLayer-2\Test.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>Scenario_PatchObject200\Test.sstest</Path>
+        <Path>Scenario-PostUser200\Test.sstest</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>

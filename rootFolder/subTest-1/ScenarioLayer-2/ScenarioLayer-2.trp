@@ -1,0 +1,19 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-18 17:59:24.349"/>
+<log type="Test" name="ScenarioLayer-2" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-2\Test.sstest"  at="2024-09-18 17:59:24.646"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-2\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@ScenarioLayer-2" status="Pass" comment=""  at="2024-09-18 17:59:24.650"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-2\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-2\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When executing Demo Get" status="Info"  at="2024-09-18 17:59:24.686"/>
+<log type="Assert" name="subTest1_Demo_Get_By_Id.DoExecute()" status="Pass"  at="2024-09-18 17:59:25.964"><data type="text">Status Code: 200 
+Response: {&quot;id&quot;:&quot;7&quot;,&quot;name&quot;:&quot;Apple MacBook Pro 16&quot;,&quot;data&quot;:{&quot;year&quot;:2019,&quot;price&quot;:1849.99,&quot;CPU model&quot;:&quot;Intel Core i9&quot;,&quot;Hard disk size&quot;:&quot;1 TB&quot;}}</data>
+</log>
+<log type="Message" name="And fetching the resposne body" status="Info"  at="2024-09-18 17:59:25.969"/>
+<log type="Assert" name="Then validating the id present or not." status="Pass" comment="responseBody.id!=null"  at="2024-09-18 17:59:25.977"><data type="text">AssertNotNull</data>
+<data type="text">responseBody.id</data>
+</log>
+<log type="Assert" name="And validating the id content matches ir not" status="Pass" comment="Apple MacBook Pro 16==Apple MacBook Pro 16"  at="2024-09-18 17:59:25.979"><data type="text">AssertEqual</data>
+<data type="text">Apple MacBook Pro 16</data>
+<data type="text">Apple MacBook Pro 16</data>
+</log>
+<log type="Test" name="ScenarioLayer-2" status="Pass" closed="ScenarioLayer-2" _guid="undefined"  at="2024-09-18 17:59:25.986" comment="Passed:4 Failed:0 Time:1.562s" />

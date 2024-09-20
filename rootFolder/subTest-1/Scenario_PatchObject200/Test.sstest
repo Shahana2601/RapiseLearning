@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="WGMMTDO2" t="">
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="8EIW2LYE" t="">
   <ScriptPath>Main.js</ScriptPath>
-  <UserFunctionsPath>..\Common.js</UserFunctionsPath>
-  <ObjectsPath>..\Objects.js</ObjectsPath>
-  <ReportPath>subTest-1.trp</ReportPath>
+  <UserFunctionsPath>..\..\Common.js</UserFunctionsPath>
+  <ObjectsPath>..\..\Objects.js</ObjectsPath>
+  <ReportPath>Scenario_PatchObject200.trp</ReportPath>
   <CommandInterval>100</CommandInterval>
   <IterationsCount>1</IterationsCount>
   <StopOnError>true</StopOnError>
@@ -21,17 +21,26 @@
   <SaveScreenshotOnFailure>true</SaveScreenshotOnFailure>
   <CommandLine />
   <EntryPoint>Test</EntryPoint>
-  <WorkDir>..\.</WorkDir>
+  <WorkDir>..\..\.</WorkDir>
   <TestFiles>
     <Name>Test</Name>
-    <RealFolder>true</RealFolder>
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <RealFolder>true</RealFolder>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
-        <Path>..\Common.js</Path>
+        <Path>..\..\Common.js</Path>
       </TestFile>
       <TestFile>
         <Path>Main.js</Path>
@@ -40,19 +49,7 @@
         <Path>Main.rvl.xlsx</Path>
       </TestFile>
       <TestFile>
-        <Path>..\Objects.js</Path>
-      </TestFile>
-      <TestFile>
-        <Path>subTest1.rest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>ScenarioLayer-1\Test.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>ScenarioLayer-2\Test.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>Scenario_PatchObject200\Test.sstest</Path>
+        <Path>..\..\Objects.js</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>

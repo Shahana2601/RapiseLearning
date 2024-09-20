@@ -17,7 +17,7 @@
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
   <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
-  <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
+  <SaveScreenshotObjectOnly>false</SaveScreenshotObjectOnly>
   <SaveScreenshotsCaptureCursor>false</SaveScreenshotsCaptureCursor>
   <SaveScreenshotOnFailure>false</SaveScreenshotOnFailure>
   <CommandLine />
@@ -36,6 +36,9 @@
         <Tags>shared</Tags>
       </TestFile>
       <TestFile>
+        <Path>last.tap</Path>
+      </TestFile>
+      <TestFile>
         <Path>Main.js</Path>
       </TestFile>
       <TestFile>
@@ -43,6 +46,9 @@
       </TestFile>
       <TestFile>
         <Path>subTest-1\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>subTest-2\Test.sstest</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>

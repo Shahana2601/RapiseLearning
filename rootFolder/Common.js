@@ -46,3 +46,25 @@ var subTest1_Demo_GetById=SeS('subTest1_Demo_Get_By_Id');
 function formatJson(/**string*/ jsonData) {
     return JSON.parse(jsonData.Body);
 }
+
+function demoPatch(){
+var subTest1_Demo_Patch_By_Id=SeS('subTest1_Demo_Patch_By_Id');
+	subTest1_Demo_Patch_By_Id.DoExecute();
+	var resp=subTest1_Demo_Patch_By_Id.Response;
+	return resp;
+}
+
+function getAllObject(){
+var subTest2_Get_All_Objects=SeS('subTest2_Get_All_Objects');
+	subTest2_Get_All_Objects.DoExecute();
+	var resposne = subTest2_Get_All_Objects.Response;
+	return resposne;
+}
+
+function postUserData(){
+var subTest2_Post_Data=SeS('subTest2_Post_Data');
+	subTest2_Post_Data.DoExecute();
+	var response = subTest2_Post_Data.Response;
+	return response;
+}
+

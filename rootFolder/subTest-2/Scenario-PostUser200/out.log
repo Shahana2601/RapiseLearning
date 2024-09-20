@@ -1,0 +1,25 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario-PostUser200 (-2)
+###Play RVL@Scenario-PostUser200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx:RVL, 25 source rows 0 errors
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Data
+subTest2_Post_Data.DoExecute()
+###subTest2_Post_Data.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Execution is over, bailing out.
+###Scenario-PostUser200 (1)
+Test execution done
+##############################################################
+Test Pass: Scenario-PostUser200,  (Passed:3 Failed:0 Time:0.627s)
+Test Session Status: Pass Time: 1.94s
+##############################################################
