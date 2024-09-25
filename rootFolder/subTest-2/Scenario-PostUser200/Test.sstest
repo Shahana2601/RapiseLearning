@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="5S3EW9KC" t="">
+  <AliasName>Scenario-PostUser201</AliasName>
   <ScriptPath>Main.js</ScriptPath>
   <UserFunctionsPath>..\..\Common.js</UserFunctionsPath>
   <ObjectsPath>..\..\Objects.js</ObjectsPath>

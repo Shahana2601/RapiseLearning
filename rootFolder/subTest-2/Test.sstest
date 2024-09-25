@@ -28,17 +28,7 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups>
-      <TestGroup>
-        <Name>Scenario-GetAllObject200</Name>
-        <RealFolder>true</RealFolder>
-        <IsFilterGroup>false</IsFilterGroup>
-        <FilterWildcard>*.*</FilterWildcard>
-        <FilterPath>Scenario-GetAllObject200</FilterPath>
-        <Groups />
-        <TestFiles />
-      </TestGroup>
-    </Groups>
+    <Groups />
     <TestFiles>
       <TestFile>
         <Path>..\Common.js</Path>
@@ -60,6 +50,15 @@
       </TestFile>
       <TestFile>
         <Path>Scenario-PostUser200\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Scenario-GetAllUser200\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Scenario-DeleteUser200\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Scenario-PatchUser200\Test.sstest</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>

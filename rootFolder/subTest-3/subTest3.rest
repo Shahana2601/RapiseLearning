@@ -3,15 +3,15 @@
   "AfterCallCommon": null,
   "RecordHeaders": false,
   "RecordParameters": false,
-  "Name": "subTest2.rest",
-  "BaseName": "subTest2",
+  "Name": "subTest3.rest",
+  "BaseName": "subTest3",
   "Requests": [
     {
       "ProxyHost": null,
       "ProxyPort": null,
       "ProxyUser": null,
       "ProxyPwd": null,
-      "Name": "Get_All_Students",
+      "Name": "Get_All_Objects",
       "Url": "http://localhost:3000/students",
       "Method": "GET",
       "Body": "",
@@ -28,10 +28,10 @@
       "ProxyPort": null,
       "ProxyUser": null,
       "ProxyPwd": null,
-      "Name": "Post_Student",
+      "Name": "Post_User",
       "Url": "http://localhost:3000/students",
       "Method": "POST",
-      "Body": "\r\n  {\r\n    \"id\": \"{id}\",\r\n    \"name\": \"{name}\",\r\n    \"location\": \"{location}\",\r\n    \"phone\": \"{phone}\"\r\n  }\r\n",
+      "Body": "\r\n  {\r\n    \"id\": \"{id}\",\r\n    \"name\": \"{name}\",\r\n    \"location\": \"{location}\",\r\n    \"phone\": \"{phone}\"\r\n  }",
       "Credential": null,
       "BeforeCallCommon": null,
       "AfterCallCommon": null,
@@ -47,7 +47,7 @@
         {
           "Name": "name",
           "TokenName": "{name}",
-          "Value": "Shahana S"
+          "Value": "Shahana s"
         },
         {
           "Name": "location",
@@ -57,7 +57,7 @@
         {
           "Name": "phone",
           "TokenName": "{phone}",
-          "Value": "638958924894"
+          "Value": "735797917849"
         }
       ]
     },
@@ -66,42 +66,8 @@
       "ProxyPort": null,
       "ProxyUser": null,
       "ProxyPwd": null,
-      "Name": "Delete_By_Id",
+      "Name": "Delete_User",
       "Url": "http://localhost:3000/students/7",
-      "Method": "DELETE",
-      "Body": "",
-      "Credential": null,
-      "BeforeCallCommon": null,
-      "AfterCallCommon": null,
-      "BeforeCall": null,
-      "AfterCall": null,
-      "Headers": [],
-      "Parameters": []
-    },
-    {
-      "ProxyHost": null,
-      "ProxyPort": null,
-      "ProxyUser": null,
-      "ProxyPwd": null,
-      "Name": "Patch_Student_By_Id",
-      "Url": "http://localhost:3000/students/5",
-      "Method": "PATCH",
-      "Body": "{\r\n  \"name\": \"Sambit Sahu\",\r\n  \"location\": \"Odisha\",\r\n  \"phone\": \"7878564534\"\r\n}",
-      "Credential": null,
-      "BeforeCallCommon": null,
-      "AfterCallCommon": null,
-      "BeforeCall": null,
-      "AfterCall": null,
-      "Headers": [],
-      "Parameters": []
-    },
-    {
-      "ProxyHost": null,
-      "ProxyPort": null,
-      "ProxyUser": null,
-      "ProxyPwd": null,
-      "Name": "Get_Student_By_Id",
-      "Url": "http://localhost:3000/students/5",
       "Method": "GET",
       "Body": "",
       "Credential": null,

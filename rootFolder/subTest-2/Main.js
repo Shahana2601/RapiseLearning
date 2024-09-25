@@ -12,5 +12,20 @@ function Test(params)
 	var subTest2_Post_Data=SeS('subTest2_Post_Data');
 	subTest2_Post_Data.DoExecute();
 
+	var subTest2_Post_Data=SeS('subTest2_Post_Data');
+	subTest2_Post_Data.DoExecute();
+
+	var subTest2_Post_Data=SeS('subTest2_Post_Data');
+	subTest2_Post_Data.DoExecute();
+
+	var subTest2_Delete_By_Id=SeS('subTest2_Delete_By_Id');
+	subTest2_Delete_By_Id.DoExecute();
+
+	var subTest2_Patch_Student_By_Id=SeS('subTest2_Patch_Student_By_Id');
+	subTest2_Patch_Student_By_Id.DoExecute();
+
+	var subTest2_Patch_Student_By_Id=SeS('subTest2_Patch_Student_By_Id');
+	subTest2_Patch_Student_By_Id.DoExecute();
+
 }
 

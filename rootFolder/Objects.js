@@ -142,5 +142,131 @@ var saved_script_objects={
 				}
 			}
 		]
+	},
+	"subTest3_Get_All_Objects": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Get_All_Objects",
+		"object_library": "Web Service",
+		"window_name": "subTest3",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest3_Post_User": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Post_User",
+		"object_library": "Web Service",
+		"window_name": "subTest3",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest3_Delete_User": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Delete_User",
+		"object_library": "Web Service",
+		"window_name": "subTest3",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest2_Get_Student_By_Id": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Get_Student_By_Id",
+		"object_library": "Web Service",
+		"window_name": "subTest2",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest2_Patch_Student_By_Id": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Patch_Student_By_Id",
+		"object_library": "Web Service",
+		"window_name": "subTest2",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest2_Post_Student": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Post_Student",
+		"object_library": "Web Service",
+		"window_name": "subTest2",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
+	},
+	"subTest2_Get_All_Students": {
+		"version": 0,
+		"object_text": "param:object_name",
+		"object_type": "RESTService",
+		"object_flavor": "WebService",
+		"object_name": "Get_All_Students",
+		"object_library": "Web Service",
+		"window_name": "subTest2",
+		"locations": [
+			{
+				"locator_name": "REST",
+				"location": {
+					"definition": "param:window_name",
+					"request": "param:object_name"
+				}
+			}
+		]
 	}
 }

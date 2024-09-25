@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="B940VL55" t="">
-  <AliasName>Scenario_AddObject201</AliasName>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="BUN6CQY2" t="">
+  <AliasName>Scenario-PostUserData201</AliasName>
   <ScriptPath>Main.js</ScriptPath>
   <UserFunctionsPath>..\..\Common.js</UserFunctionsPath>
   <ObjectsPath>..\..\Objects.js</ObjectsPath>
-  <ReportPath>ScenarioLayer-1.trp</ReportPath>
+  <ReportPath>Scenario-PostUserData200.trp</ReportPath>
   <CommandInterval>100</CommandInterval>
   <IterationsCount>1</IterationsCount>
   <StopOnError>true</StopOnError>

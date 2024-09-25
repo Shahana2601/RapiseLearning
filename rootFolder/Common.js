@@ -43,7 +43,7 @@ var subTest1_Demo_GetById=SeS('subTest1_Demo_Get_By_Id');
 //	return prettyJson;	
 //}
 
-function formatJson(/**string*/ jsonData) {
+function formatJson(/**String*/ jsonData) {
     return JSON.parse(jsonData.Body);
 }
 
@@ -54,17 +54,36 @@ var subTest1_Demo_Patch_By_Id=SeS('subTest1_Demo_Patch_By_Id');
 	return resp;
 }
 
-function getAllObject(){
-var subTest2_Get_All_Objects=SeS('subTest2_Get_All_Objects');
+function getAllUser(){
+var subTest2_Get_All_Objects=SeS('subTest2_Get_All_Students');
 	subTest2_Get_All_Objects.DoExecute();
-	var resposne = subTest2_Get_All_Objects.Response;
-	return resposne;
+	var response = subTest2_Get_All_Objects.Response;
+	return response;
 }
 
-function postUserData(){
-var subTest2_Post_Data=SeS('subTest2_Post_Data');
+function postUserData(/**String*/ id, /**String*/ name, /**String*/ location, /**String*/ phone ){
+var subTest2_Post_Data=SeS('subTest2_Post_Student');
+	subTest2_Post_Data.SetParameter("id", id);
+	subTest2_Post_Data.SetParameter("name", name);
+	subTest2_Post_Data.SetParameter("loaction", location);
+	subTest2_Post_Data.SetParameter("phone", phone);
 	subTest2_Post_Data.DoExecute();
 	var response = subTest2_Post_Data.Response;
 	return response;
 }
 
+function deleteUserData(/**String*/ id){
+var subTest2_Delete_By_Id=SeS('subTest2_Delete_By_Id');
+	subTest2_Delete_By_Id.SetParameter("id", id);
+	subTest2_Delete_By_Id.DoExecute();
+	var response=subTest2_Delete_By_Id.Response;
+	return response;
+}
+
+function patchUserDataById(/**String*/ id){
+var subTest2_Patch_Student_By_Id=SeS('subTest2_Patch_Student_By_Id');
+	subTest2_Patch_Student_By_Id.SetParameter("id", id);
+	subTest2_Patch_Student_By_Id.DoExecute();
+	var response= subTest2_Patch_Student_By_Id.Response;
+	return response;
+}

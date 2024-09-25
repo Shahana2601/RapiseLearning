@@ -1,0 +1,25 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario-DeleteUser200 (-2)
+###Play RVL@Scenario-DeleteUser200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Main.rvl.xlsx:RVL, 17 source rows 0 errors
+Looking for object:Tester
+###When Delete gets executed (-2)
+Looking for object:subTest2_Delete_By_Id
+subTest2_Delete_By_Id.DoExecute()
+###subTest2_Delete_By_Id.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And retrieve json data (-2)
+Looking for object:Tester
+###Then assert id from response (1)
+Execution is over, bailing out.
+###Scenario-DeleteUser200 (1)
+Test execution done
+##############################################################
+Test Pass: Scenario-DeleteUser200,  (Passed:3 Failed:0 Time:0.638s)
+Test Session Status: Pass Time: 1.916s
+##############################################################

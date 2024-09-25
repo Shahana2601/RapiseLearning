@@ -2,21 +2,6 @@ C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
 SeS Player Starting...
 Rapise Version:8.2.30.77
 Verbose level:1
-###Scenario_AddObject200 (-2)
-###Play RVL@Scenario_AddObject200 (1)
-Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-1\Main.rvl.xlsx
-Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-1\ScenarioLayer-1\Main.rvl.xlsx:RVL, 52 source rows 0 errors
-Looking for object:Tester
-###When executing Demo post (-2)
-###Row index:3 out of scope: 0..3 in Map:demoMap (0)
-Test stopped on error: Row index:3 out of scope: 0..3 in Map:demoMap
-###Error reading Map: demoMap Column name: name (0)
-Test stopped on error: Error reading Map: demoMap Column name: name
-###Screen flow (-2)
-###Test Failed: 0 (-2)
-###Scenario_AddObject200 (0)
-Test execution done
-##############################################################
-Test Fail: Scenario_AddObject200,  (Passed:1 Failed:2 Time:0.325s)
-Test Session Status: Fail Time: 1.858s
-##############################################################
+Error evaluating user's file C:\Users\shahana.shajahan\RapiseLearning\rootFolder\Common.js (syntax error): ReferenceError: s is not defined
+###Initialization error (0)
+Test stopped on error: Initialization error
