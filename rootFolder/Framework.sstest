@@ -17,7 +17,7 @@
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
   <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
-  <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
+  <SaveScreenshotObjectOnly>false</SaveScreenshotObjectOnly>
   <SaveScreenshotsCaptureCursor>false</SaveScreenshotsCaptureCursor>
   <SaveScreenshotOnFailure>false</SaveScreenshotOnFailure>
   <CommandLine />
@@ -29,11 +29,31 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Lib</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath>Lib</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
         <Path>Common.js</Path>
         <Tags>shared</Tags>
+      </TestFile>
+      <TestFile>
+        <Path>last.tap</Path>
       </TestFile>
       <TestFile>
         <Path>Main.js</Path>
@@ -43,6 +63,9 @@
       </TestFile>
       <TestFile>
         <Path>subTest-1\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>subTest-2\Test.sstest</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>
