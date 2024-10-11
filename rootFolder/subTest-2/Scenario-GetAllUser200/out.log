@@ -1,0 +1,56 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario-GetAllUser200 (-2)
+###Play RVL@Scenario-GetAllUser200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx:RVL, 34 source rows 0 errors
+Looking for object:Tester
+###When Get request sent (-2)
+Looking for object:RVL
+###Play CreateUser@Scenario-GetAllUser200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx:CreateUser, 21 source rows 0 errors
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Execution is over, bailing out.
+Looking for object:subTest2_Get_All_Students
+subTest2_Get_All_Students.DoExecute()
+###subTest2_Get_All_Students.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And extract data from resposne (-2)
+Looking for object:Tester
+###Then assert status code 200 (1)
+Looking for object:Tester
+###And assert name field not null (0)
+Looking for object:Tester
+###And check name field equal or not (0)
+Looking for object:Tester
+###And check location fieldpresent or not (0)
+Execution is over, bailing out.
+###Screen flow (-2)
+###Test Failed: 0 (-2)
+###Scenario-GetAllUser200 (0)
+Test execution done
+##############################################################
+Test Fail: Scenario-GetAllUser200,  (Passed:7 Failed:3 Time:1.111s)
+Test Session Status: Fail Time: 2.715s
+##############################################################

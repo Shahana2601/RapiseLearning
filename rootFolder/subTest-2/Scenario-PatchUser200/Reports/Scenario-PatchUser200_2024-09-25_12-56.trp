@@ -1,0 +1,16 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-25 12:56:51.788"/>
+<log type="Test" name="Scenario-PatchUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Test.sstest"  at="2024-09-25 12:56:52.106"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-PatchUser200" status="Pass" comment=""  at="2024-09-25 12:56:52.110"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When patch executed" status="Info"  at="2024-09-25 12:56:52.146"/>
+<log type="Assert" name="subTest2_Patch_Student_By_Id.DoExecute()" status="Pass"  at="2024-09-25 12:56:52.456"><data type="text">Status Code: 200 OK
+Response: {
+  &quot;id&quot;: &quot;5&quot;,
+  &quot;name&quot;: &quot;Sambit K&quot;,
+  &quot;location&quot;: &quot;Tvm&quot;,
+  &quot;phone&quot;: &quot;&quot;
+}</data>
+</log>
+<log type="Test" name="Scenario-PatchUser200" status="Pass" closed="Scenario-PatchUser200" _guid="undefined"  at="2024-09-25 12:56:52.467" comment="Passed:2 Failed:0 Time:0.588s" />

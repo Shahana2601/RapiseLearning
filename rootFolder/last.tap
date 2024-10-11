@@ -1,9 +1,0 @@
-# Scenario-GetAllUser200
-ok 1 - Play RVL@Scenario-GetAllUser200
-# When Get request sent
-ok 2 - subTest2_Get_All_Students.DoExecute()
-# And extract data from resposne
-ok 3 - Then assert name field not null
-ok 4 - And check name field equal or not
-ok 5 - And check location fieldpresent or not
-ok 6 - Scenario-GetAllUser200

@@ -1,0 +1,16 @@
+{
+	"params": [
+		{
+			"name": "Command Interval",
+			"type": "number",
+			"defaultValue": 100
+		}
+	],
+	"configs": [
+		{
+			"id": "85d2e7cf",
+			"name": "Default",
+			"values": {}
+		}
+	]
+}

@@ -5,7 +5,7 @@ Verbose level:1
 ###Scenario-PostUser201 (-2)
 ###Play RVL@Scenario-PostUser201 (1)
 Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx
-Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx:RVL, 41 source rows 0 errors
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx:RVL, 44 source rows 0 errors
 Looking for object:Tester
 ###When Post request sent (-2)
 Looking for object:subTest2_Post_Student
@@ -14,6 +14,8 @@ subTest2_Post_Student.DoExecute()
 Action result:true
 Looking for object:Tester
 ###And access the json data (-2)
+Looking for object:Tester
+###Then assert status code 201 (1)
 Looking for object:Tester
 ###Then assert name field (1)
 Looking for object:Tester
@@ -29,6 +31,8 @@ Action result:true
 Looking for object:Tester
 ###And access the json data (-2)
 Looking for object:Tester
+###Then assert status code 201 (1)
+Looking for object:Tester
 ###Then assert name field (1)
 Looking for object:Tester
 ###And assert name field not null (1)
@@ -42,6 +46,8 @@ subTest2_Post_Student.DoExecute()
 Action result:true
 Looking for object:Tester
 ###And access the json data (-2)
+Looking for object:Tester
+###Then assert status code 201 (1)
 Looking for object:Tester
 ###Then assert name field (1)
 Looking for object:Tester
@@ -52,6 +58,6 @@ Execution is over, bailing out.
 ###Scenario-PostUser201 (1)
 Test execution done
 ##############################################################
-Test Pass: Scenario-PostUser201,  (Passed:13 Failed:0 Time:0.93s)
-Test Session Status: Pass Time: 2.206s
+Test Pass: Scenario-PostUser201,  (Passed:16 Failed:0 Time:1.005s)
+Test Session Status: Pass Time: 2.613s
 ##############################################################

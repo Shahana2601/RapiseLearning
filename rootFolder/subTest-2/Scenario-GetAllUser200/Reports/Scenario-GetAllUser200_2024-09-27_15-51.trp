@@ -1,0 +1,16 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-27 15:51:12.397"/>
+<log type="Test" name="Scenario-GetAllUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest"  at="2024-09-27 15:51:12.680"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play CreateUser@Scenario-GetAllUser200" status="Pass" comment=""  at="2024-09-27 15:51:12.684"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 15:51:12.733"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 15:51:13.050"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Test" name="Scenario-GetAllUser200" status="Pass" closed="Scenario-GetAllUser200" _guid="undefined"  at="2024-09-27 15:51:13.061" comment="Passed:2 Failed:0 Time:0.59s" />

@@ -1,0 +1,320 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario-GetUserById (-2)
+###Play RVL@Scenario-GetUserById (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx:RVL, 74 source rows 0 errors
+Looking for object:Tester
+###When Get request sent (-2)
+Looking for object:RVL
+###Play CreateUser@Scenario-GetUserById (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx:CreateUser, 67 source rows 0 errors
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(name, response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(name, response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(name, response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Execution is over, bailing out.
+Checking If branch at line: 25
+Checking branch condition: param1 == param2(Users, "Shahana S")
+Condition resolved to: true
+Looking for object:Tester
+###check for id (0)
+Checking If branch at line: 34
+Checking branch condition: param1 == param2(Users, "Sambit Sahu")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 40
+Checking branch condition: param1 == param2(Users, "S Chandrakanth")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Looking for object:subTest2_Get_Student_By_Id
+subTest2_Get_Student_By_Id.DoExecute()
+###subTest2_Get_Student_By_Id.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And extract data from response (-2)
+Looking for object:Tester
+###And check for status code 200 (1)
+Looking for object:Tester
+###Then assert name field not null (1)
+Looking for object:Tester
+###And check location field present or not (1)
+Looking for object:Tester
+###And Check name field matches with the expected (0)
+Looking for object:Tester
+###When Get request sent (-2)
+Looking for object:RVL
+###Play CreateUser@Scenario-GetUserById (1)
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx:CreateUser, 67 source rows 0 errors
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Execution is over, bailing out.
+Checking If branch at line: 25
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "Shahana S")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 34
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "Sambit Sahu")
+Condition resolved to: true
+Checking If branch at line: 40
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "S Chandrakanth")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Looking for object:subTest2_Get_Student_By_Id
+subTest2_Get_Student_By_Id.DoExecute()
+###subTest2_Get_Student_By_Id.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And extract data from response (-2)
+Looking for object:Tester
+###And check for status code 200 (1)
+Looking for object:Tester
+###Then assert name field not null (1)
+Looking for object:Tester
+###And check location field present or not (1)
+Looking for object:Tester
+###And Check name field matches with the expected (0)
+Looking for object:Tester
+###When Get request sent (-2)
+Looking for object:RVL
+###Play CreateUser@Scenario-GetUserById (1)
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx:CreateUser, 67 source rows 0 errors
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Looking for object:Tester
+###When Post request sent (-2)
+Looking for object:subTest2_Post_Student
+subTest2_Post_Student.DoExecute()
+###subTest2_Post_Student.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And access the json data (-2)
+Looking for object:Tester
+###Then assert name field (1)
+Looking for object:Tester
+###And assert name field not null (1)
+Looking for object:Tester
+###And assert name starts with (1)
+Checking If branch at line: 47
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 53
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Checking If branch at line: 59
+Checking branch condition: param1 == param2(PostUserMap.GetCell('name'), response.name)
+Condition resolved to: true
+Execution is over, bailing out.
+Checking If branch at line: 25
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "Shahana S")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 34
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "Sambit Sahu")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 40
+Checking branch condition: param1 == param2(MyMap1.GetCell('Users'), "S Chandrakanth")
+Condition resolved to: true
+Looking for object:subTest2_Get_Student_By_Id
+subTest2_Get_Student_By_Id.DoExecute()
+###subTest2_Get_Student_By_Id.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###And extract data from response (-2)
+Looking for object:Tester
+###And check for status code 200 (1)
+Looking for object:Tester
+###Then assert name field not null (1)
+Looking for object:Tester
+###And check location field present or not (1)
+Looking for object:Tester
+###And Check name field matches with the expected (1)
+Execution is over, bailing out.
+###Screen flow (-2)
+###Test Failed: 0 (-2)
+###Scenario-GetUserById (0)
+Test execution done
+##############################################################
+Test Fail: Scenario-GetUserById,  (Passed:53 Failed:3 Time:2.271s)
+Test Session Status: Fail Time: 3.859s
+##############################################################

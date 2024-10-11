@@ -1,0 +1,135 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-25 12:37:18.988"/>
+<log type="Test" name="Scenario-GetAllUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest"  at="2024-09-25 12:37:19.065"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-GetAllUser200" status="Pass" comment=""  at="2024-09-25 12:37:19.068"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-25 12:37:19.103"/>
+<log type="Assert" name="subTest2_Get_All_Students.DoExecute()" status="Pass"  at="2024-09-25 12:37:47.228"><data type="text">Status Code: 200 OK
+Response: [
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;name&quot;: &quot;Shahzad&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 9657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8655462914
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;name&quot;: &quot;Chandrakanth&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 43657865453
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;name&quot;: &quot;Sambit Sahu&quot;,
+    &quot;location&quot;: &quot;Odisha&quot;,
+    &quot;phone&quot;: &quot;7878564534&quot;
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;name&quot;: &quot;Sahu K Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 999999943434
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;ad5c&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;83d1&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;b154&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;d83e&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;8d80&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;...</data>
+</log>

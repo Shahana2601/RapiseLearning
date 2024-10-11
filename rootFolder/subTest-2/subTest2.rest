@@ -42,7 +42,7 @@
         {
           "Name": "id",
           "TokenName": "{id}",
-          "Value": "7"
+          "Value": "1"
         },
         {
           "Name": "name",
@@ -67,7 +67,7 @@
       "ProxyUser": null,
       "ProxyPwd": null,
       "Name": "Delete_By_Id",
-      "Url": "http://localhost:3000/students/7",
+      "Url": "http://localhost:3000/students/1",
       "Method": "DELETE",
       "Body": "",
       "Credential": null,
@@ -86,14 +86,35 @@
       "Name": "Patch_Student_By_Id",
       "Url": "http://localhost:3000/students/5",
       "Method": "PATCH",
-      "Body": "{\r\n  \"name\": \"Sambit Sahu\",\r\n  \"location\": \"Odisha\",\r\n  \"phone\": \"7878564534\"\r\n}",
+      "Body": "{\r\n  \"name\": \"{name}\",\r\n  \"location\": \"{location}\",\r\n  \"phone\": \"{phone}\"\r\n}",
       "Credential": null,
       "BeforeCallCommon": null,
       "AfterCallCommon": null,
       "BeforeCall": null,
       "AfterCall": null,
       "Headers": [],
-      "Parameters": []
+      "Parameters": [
+        {
+          "Name": "id",
+          "TokenName": "{id}",
+          "Value": "5"
+        },
+        {
+          "Name": "name",
+          "TokenName": "{name}",
+          "Value": "Sambit"
+        },
+        {
+          "Name": "location",
+          "TokenName": "{location}",
+          "Value": "Tvm"
+        },
+        {
+          "Name": "phone",
+          "TokenName": "{phone}",
+          "Value": "56734567"
+        }
+      ]
     },
     {
       "ProxyHost": null,
@@ -101,7 +122,7 @@
       "ProxyUser": null,
       "ProxyPwd": null,
       "Name": "Get_Student_By_Id",
-      "Url": "http://localhost:3000/students/5",
+      "Url": "http://localhost:3000/students/{id}",
       "Method": "GET",
       "Body": "",
       "Credential": null,
@@ -110,7 +131,36 @@
       "BeforeCall": null,
       "AfterCall": null,
       "Headers": [],
-      "Parameters": []
+      "Parameters": [
+        {
+          "Name": "id",
+          "TokenName": "{id}",
+          "Value": "9"
+        }
+      ]
+    },
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Get_Student_By_Id_404",
+      "Url": "http://localhost:3000/students/{id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": [
+        {
+          "Name": "id",
+          "TokenName": "{id}",
+          "Value": "79"
+        }
+      ]
     }
   ]
 }

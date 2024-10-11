@@ -1,0 +1,21 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.2.30.77
+Verbose level:1
+###Scenario-PatchUser200 (-2)
+###Play RVL@Scenario-PatchUser200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PatchUser200\Main.rvl.xlsx:RVL, 15 source rows 0 errors
+Looking for object:Tester
+###When patch executed (-2)
+Looking for object:subTest2_Patch_Student_By_Id
+subTest2_Patch_Student_By_Id.DoExecute()
+###subTest2_Patch_Student_By_Id.DoExecute() (1)
+Action result:true
+Execution is over, bailing out.
+###Scenario-PatchUser200 (1)
+Test execution done
+##############################################################
+Test Pass: Scenario-PatchUser200,  (Passed:2 Failed:0 Time:0.64s)
+Test Session Status: Pass Time: 1.969s
+##############################################################

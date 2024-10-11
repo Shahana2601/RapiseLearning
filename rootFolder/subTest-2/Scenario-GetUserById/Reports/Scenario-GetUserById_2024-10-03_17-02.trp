@@ -1,0 +1,10 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-03 17:01:57.996"/>
+<log type="Test" name="Scenario-GetUserById" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest"  at="2024-10-03 17:01:58.082"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-GetUserById" status="Pass" comment=""  at="2024-10-03 17:01:58.085"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-10-03 17:01:58.157"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-10-03 17:01:58.160"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-10-03 17:01:58.211"/>

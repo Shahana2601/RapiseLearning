@@ -1,0 +1,27 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "subTest4.rest",
+  "BaseName": "subTest4",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "New_Request",
+      "Url": "https://reqres.in/api/users/2",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": []
+    }
+  ]
+}

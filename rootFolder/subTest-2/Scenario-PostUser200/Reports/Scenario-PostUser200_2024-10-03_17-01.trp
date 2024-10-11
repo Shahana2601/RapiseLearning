@@ -1,0 +1,7 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-03 17:01:32.057"/>
+<log type="Test" name="Scenario-PostUser201" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Test.sstest"  at="2024-10-03 17:01:32.330"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-PostUser201" status="Pass" comment=""  at="2024-10-03 17:01:32.333"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-PostUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-10-03 17:01:32.401"/>

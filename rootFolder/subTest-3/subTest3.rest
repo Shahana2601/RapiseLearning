@@ -11,63 +11,8 @@
       "ProxyPort": null,
       "ProxyUser": null,
       "ProxyPwd": null,
-      "Name": "Get_All_Objects",
-      "Url": "http://localhost:3000/students",
-      "Method": "GET",
-      "Body": "",
-      "Credential": null,
-      "BeforeCallCommon": null,
-      "AfterCallCommon": null,
-      "BeforeCall": null,
-      "AfterCall": null,
-      "Headers": [],
-      "Parameters": []
-    },
-    {
-      "ProxyHost": null,
-      "ProxyPort": null,
-      "ProxyUser": null,
-      "ProxyPwd": null,
-      "Name": "Post_User",
-      "Url": "http://localhost:3000/students",
-      "Method": "POST",
-      "Body": "\r\n  {\r\n    \"id\": \"{id}\",\r\n    \"name\": \"{name}\",\r\n    \"location\": \"{location}\",\r\n    \"phone\": \"{phone}\"\r\n  }",
-      "Credential": null,
-      "BeforeCallCommon": null,
-      "AfterCallCommon": null,
-      "BeforeCall": null,
-      "AfterCall": null,
-      "Headers": [],
-      "Parameters": [
-        {
-          "Name": "id",
-          "TokenName": "{id}",
-          "Value": "7"
-        },
-        {
-          "Name": "name",
-          "TokenName": "{name}",
-          "Value": "Shahana s"
-        },
-        {
-          "Name": "location",
-          "TokenName": "{location}",
-          "Value": "TVM"
-        },
-        {
-          "Name": "phone",
-          "TokenName": "{phone}",
-          "Value": "735797917849"
-        }
-      ]
-    },
-    {
-      "ProxyHost": null,
-      "ProxyPort": null,
-      "ProxyUser": null,
-      "ProxyPwd": null,
-      "Name": "Delete_User",
-      "Url": "http://localhost:3000/students/7",
+      "Name": "New_Request",
+      "Url": "ujvii",
       "Method": "GET",
       "Body": "",
       "Credential": null,

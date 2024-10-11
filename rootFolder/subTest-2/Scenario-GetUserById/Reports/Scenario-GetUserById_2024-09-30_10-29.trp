@@ -1,0 +1,281 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-30 10:28:24.919"/>
+<log type="Test" name="Scenario-GetUserById" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest"  at="2024-09-30 10:28:25.026"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-30 10:28:25.029"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-30 10:28:25.150"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-30 10:28:25.157"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:28:25.215"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:28:25.627"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:28:25.633"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="Shahana S==Shahana S"  at="2024-09-30 10:28:25.639"><data type="text">AssertEqual</data>
+<data type="text">Shahana S</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="Shahana S!=null"  at="2024-09-30 10:28:25.644"><data type="text">AssertNotNull</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="Shahana S starts with Shahana S"  at="2024-09-30 10:28:25.651"><data type="text">AssertStartsWith</data>
+<data type="text">Shahana S</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:28:25.661"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:28:25.783"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:28:25.794"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="Sambit Sahu==Sambit Sahu"  at="2024-09-30 10:28:25.804"><data type="text">AssertEqual</data>
+<data type="text">Sambit Sahu</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="Sambit Sahu!=null"  at="2024-09-30 10:28:25.814"><data type="text">AssertNotNull</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="Sambit Sahu starts with Sambit Sahu"  at="2024-09-30 10:28:25.826"><data type="text">AssertStartsWith</data>
+<data type="text">Sambit Sahu</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:28:25.856"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:28:25.983"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:28:25.987"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="S Chandrakanth==S Chandrakanth"  at="2024-09-30 10:28:25.989"><data type="text">AssertEqual</data>
+<data type="text">S Chandrakanth</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="S Chandrakanth!=null"  at="2024-09-30 10:28:25.992"><data type="text">AssertNotNull</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="S Chandrakanth starts with S Chandrakanth"  at="2024-09-30 10:28:25.996"><data type="text">AssertStartsWith</data>
+<data type="text">S Chandrakanth</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Assert" name="subTest2_Get_Student_By_Id.DoExecute()" status="Pass"  at="2024-09-30 10:29:12.681"><data type="text">Status Code: 200 OK
+Response: [
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;name&quot;: &quot;Shahzad&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 9657457634,
+    &quot;phoneee&quot;: 9657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8655462914
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;name&quot;: &quot;Chandrakanth&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 43657865453
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;name&quot;: &quot;Sambit K&quot;,
+    &quot;location&quot;: &quot;Tvm&quot;,
+    &quot;phone&quot;: &quot;34245647896&quot;
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;name&quot;: &quot;Sahu K Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 999999943434
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;ad5c&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;83d1&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;b154&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;d83e&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;8d80&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;...</data>
+</log>
+<log type="Message" name="And extract data from resposne" status="Info"  at="2024-09-30 10:29:20.041"/>
+<log type="Assert" name="And check for status code 200" status="Pass" comment="200!=null"  at="2024-09-30 10:29:20.044"><data type="text">AssertNotNull</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="Then assert name field not null" status="Fail" comment="undefined!=null"  at="2024-09-30 10:29:20.048"><data type="text">AssertNotNull</data>
+<data type="text">undefined</data>
+<data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,60,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,60,1)"/>
+</log>
+<log type="Assert" name="And check location fieldpresent or not" status="Fail" comment="undefined!=null"  at="2024-09-30 10:29:20.053"><data type="text">AssertNotNull</data>
+<data type="text">undefined</data>
+<data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,65,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,65,1)"/>
+</log>
+<log type="Assert" name="And Check name field matches with the expected" status="Fail" comment="undefined==Shahana S"  at="2024-09-30 10:29:20.057"><data type="text">AssertEqual</data>
+<data type="text">undefined</data>
+<data type="text">Shahana S</data>
+<data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,68,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,68,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-30 10:29:20.062"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-30 10:29:20.065"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:29:20.071"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:29:20.192"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:29:20.198"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="Shahana S==Shahana S"  at="2024-09-30 10:29:20.205"><data type="text">AssertEqual</data>
+<data type="text">Shahana S</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="Shahana S!=null"  at="2024-09-30 10:29:20.210"><data type="text">AssertNotNull</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="Shahana S starts with Shahana S"  at="2024-09-30 10:29:20.214"><data type="text">AssertStartsWith</data>
+<data type="text">Shahana S</data>
+<data type="text">Shahana S</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:29:20.225"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:29:20.346"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:29:20.350"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="Sambit Sahu==Sambit Sahu"  at="2024-09-30 10:29:20.355"><data type="text">AssertEqual</data>
+<data type="text">Sambit Sahu</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="Sambit Sahu!=null"  at="2024-09-30 10:29:20.357"><data type="text">AssertNotNull</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="Sambit Sahu starts with Sambit Sahu"  at="2024-09-30 10:29:20.361"><data type="text">AssertStartsWith</data>
+<data type="text">Sambit Sahu</data>
+<data type="text">Sambit Sahu</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-30 10:29:20.370"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-30 10:29:20.485"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="And access the json data" status="Info"  at="2024-09-30 10:29:20.488"/>
+<log type="Assert" name="Then assert name field" status="Pass" comment="S Chandrakanth==S Chandrakanth"  at="2024-09-30 10:29:20.492"><data type="text">AssertEqual</data>
+<data type="text">S Chandrakanth</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Assert" name="And assert name field not null" status="Pass" comment="S Chandrakanth!=null"  at="2024-09-30 10:29:20.496"><data type="text">AssertNotNull</data>
+<data type="text">S Chandrakanth</data>
+</log>
+<log type="Assert" name="And assert name starts with" status="Pass" comment="S Chandrakanth starts with S Chandrakanth"  at="2024-09-30 10:29:20.501"><data type="text">AssertStartsWith</data>
+<data type="text">S Chandrakanth</data>
+<data type="text">S Chandrakanth</data>
+</log>

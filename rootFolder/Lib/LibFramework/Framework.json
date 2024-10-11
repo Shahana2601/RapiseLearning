@@ -1,9 +1,0 @@
-{
-	"pageobjects": {},
-	"testcases": [],
-	"shared": [
-		{
-			"js": "%WORKDIR%Common.js"
-		}
-	]
-}

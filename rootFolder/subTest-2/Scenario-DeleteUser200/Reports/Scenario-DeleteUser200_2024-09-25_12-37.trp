@@ -1,0 +1,21 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-25 12:37:03.782"/>
+<log type="Test" name="Scenario-DeleteUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Test.sstest"  at="2024-09-25 12:37:04.089"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-DeleteUser200" status="Pass" comment=""  at="2024-09-25 12:37:04.093"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-DeleteUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Delete gets executed" status="Info"  at="2024-09-25 12:37:04.129"/>
+<log type="Assert" name="subTest2_Delete_By_Id.DoExecute()" status="Pass"  at="2024-09-25 12:37:04.455"><data type="text">Status Code: 200 OK
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;638958924894&quot;
+}</data>
+</log>
+<log type="Message" name="And retrieve json data" status="Info"  at="2024-09-25 12:37:04.465"/>
+<log type="Assert" name="Then assert id from response" status="Pass" comment="7==7"  at="2024-09-25 12:37:04.468"><data type="text">AssertEqual</data>
+<data type="text">7</data>
+<data type="text">7</data>
+</log>
+<log type="Test" name="Scenario-DeleteUser200" status="Pass" closed="Scenario-DeleteUser200" _guid="undefined"  at="2024-09-25 12:37:04.471" comment="Passed:3 Failed:0 Time:0.619s" />

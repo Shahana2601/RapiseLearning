@@ -43,7 +43,7 @@
         <Path>..\Objects.js</Path>
       </TestFile>
       <TestFile>
-        <Path>subTest3.rest</Path>
+        <Path>subTest4.rest</Path>
       </TestFile>
       <TestFile>
         <Path>Scenario-PostUserData200\Test.sstest</Path>

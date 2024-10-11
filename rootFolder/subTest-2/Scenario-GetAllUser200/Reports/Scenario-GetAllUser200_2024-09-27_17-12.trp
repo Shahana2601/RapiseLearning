@@ -1,0 +1,176 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-27 17:12:31.336"/>
+<log type="Test" name="Scenario-GetAllUser200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest"  at="2024-09-27 17:12:31.619"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-GetAllUser200" status="Pass" comment=""  at="2024-09-27 17:12:31.623"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-27 17:12:31.663"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetAllUser200" status="Pass" comment=""  at="2024-09-27 17:12:31.666"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetAllUser200\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 17:12:31.703"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 17:12:32.058"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 17:12:32.062"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 17:12:32.200"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 17:12:32.206"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 17:12:32.338"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Assert" name="subTest2_Get_All_Students.DoExecute()" status="Pass"  at="2024-09-27 17:12:32.488"><data type="text">Status Code: 200 OK
+Response: [
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;name&quot;: &quot;Shahzad&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 9657457634
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 8655462914
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;name&quot;: &quot;Chandrakanth&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 43657865453
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;name&quot;: &quot;Sambit K&quot;,
+    &quot;location&quot;: &quot;Tvm&quot;,
+    &quot;phone&quot;: &quot;34245647896&quot;
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;name&quot;: &quot;Sahu K Sambit&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: 999999943434
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;ad5c&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;83d1&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;b154&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;d83e&quot;
+  },
+  {
+    &quot;0&quot;: {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;name&quot;: &quot;S Chandrakanth&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 887676755543
+    },
+    &quot;1&quot;: {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Sambit&quot;,
+      &quot;location&quot;: &quot;TVM&quot;,
+      &quot;phone&quot;: 999676755543
+    },
+    &quot;id&quot;: &quot;8d80&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;location&quot;: &quot;TVM&quot;,
+    &quot;phone&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: &quot;&quot;,...</data>
+</log>
+<log type="Message" name="And extract data from resposne" status="Info"  at="2024-09-27 17:12:32.491"/>
+<log type="Assert" name="Then assert name field not null" status="Pass" comment="Shahzad!=null"  at="2024-09-27 17:12:32.493"><data type="text">AssertNotNull</data>
+<data type="text">Shahzad</data>
+</log>
+<log type="Assert" name="And check name field equal or not" status="Pass" comment="Shahzad==Shahzad"  at="2024-09-27 17:12:32.496"><data type="text">AssertEqual</data>
+<data type="text">Shahzad</data>
+<data type="text">Shahzad</data>
+</log>
+<log type="Assert" name="And check location fieldpresent or not" status="Pass" comment="TVM!=null"  at="2024-09-27 17:12:32.498"><data type="text">AssertNotNull</data>
+<data type="text">TVM</data>
+</log>
+<log type="Test" name="Scenario-GetAllUser200" status="Pass" closed="Scenario-GetAllUser200" _guid="undefined"  at="2024-09-27 17:12:32.502" comment="Passed:9 Failed:0 Time:1.101s" />

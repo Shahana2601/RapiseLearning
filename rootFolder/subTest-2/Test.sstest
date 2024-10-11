@@ -60,6 +60,15 @@
       <TestFile>
         <Path>Scenario-PatchUser200\Test.sstest</Path>
       </TestFile>
+      <TestFile>
+        <Path>Scenario-GetUserById\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Scenario-GetUserById_404\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Scenario-GetContactInFacilities\Test.sstest</Path>
+      </TestFile>
     </TestFiles>
   </TestFiles>
   <TestParams>

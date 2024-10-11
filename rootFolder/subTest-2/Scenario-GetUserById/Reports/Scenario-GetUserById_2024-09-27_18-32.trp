@@ -1,0 +1,142 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-09-27 18:32:01.823"/>
+<log type="Test" name="Scenario-GetUserById" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest"  at="2024-09-27 18:32:02.163"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-27 18:32:02.166"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-27 18:32:02.237"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-27 18:32:02.245"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:02.288"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:02.622"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:02.626"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:02.745"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:02.750"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:02.866"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Assert" name="subTest2_Get_Student_By_Id.DoExecute()" status="Pass"  at="2024-09-27 18:32:02.990"><data type="text">Status Code: 200 OK
+Response: {
+  &quot;id&quot;: &quot;5&quot;,
+  &quot;name&quot;: &quot;Sambit K&quot;,
+  &quot;location&quot;: &quot;Tvm&quot;,
+  &quot;phone&quot;: &quot;34245647896&quot;
+}</data>
+</log>
+<log type="Message" name="And extract data from resposne" status="Info"  at="2024-09-27 18:32:02.993"/>
+<log type="Assert" name="Then assert name field not null" status="Pass" comment="Sambit K!=null"  at="2024-09-27 18:32:02.996"><data type="text">AssertNotNull</data>
+<data type="text">Sambit K</data>
+</log>
+<log type="Assert" name="And check location fieldpresent or not" status="Pass" comment="Tvm!=null"  at="2024-09-27 18:32:02.998"><data type="text">AssertNotNull</data>
+<data type="text">Tvm</data>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-27 18:32:03.000"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-27 18:32:03.005"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.008"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.132"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.137"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.383"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.396"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.519"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Assert" name="subTest2_Get_Student_By_Id.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.661"><data type="text">Status Code: 200 OK
+Response: {
+  &quot;id&quot;: &quot;5&quot;,
+  &quot;name&quot;: &quot;Sambit K&quot;,
+  &quot;location&quot;: &quot;Tvm&quot;,
+  &quot;phone&quot;: &quot;34245647896&quot;
+}</data>
+</log>
+<log type="Message" name="And extract data from resposne" status="Info"  at="2024-09-27 18:32:03.667"/>
+<log type="Assert" name="Then assert name field not null" status="Pass" comment="Sambit K!=null"  at="2024-09-27 18:32:03.672"><data type="text">AssertNotNull</data>
+<data type="text">Sambit K</data>
+</log>
+<log type="Assert" name="And check location fieldpresent or not" status="Pass" comment="Tvm!=null"  at="2024-09-27 18:32:03.676"><data type="text">AssertNotNull</data>
+<data type="text">Tvm</data>
+</log>
+<log type="Message" name="When Get request sent" status="Info"  at="2024-09-27 18:32:03.680"/>
+<log type="Assert" name="Play CreateUser@Scenario-GetUserById" status="Pass" comment=""  at="2024-09-27 18:32:03.685"><data type="link" url="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)" text="C:\Users\shahana.shajahan\RapiseLearning\rootFolder\subTest-2\Scenario-GetUserById\Main.rvl.xlsx(CreateUser,2,1)"/>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.688"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.810"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;name&quot;: &quot;Shahana S&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.813"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:03.932"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;8&quot;,
+  &quot;name&quot;: &quot;Sambit Sahu&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Message" name="When Post request sent" status="Info"  at="2024-09-27 18:32:03.936"/>
+<log type="Assert" name="subTest2_Post_Student.DoExecute()" status="Pass"  at="2024-09-27 18:32:04.056"><data type="text">Status Code: 201 Created
+Response: {
+  &quot;id&quot;: &quot;9&quot;,
+  &quot;name&quot;: &quot;S Chandrakanth&quot;,
+  &quot;location&quot;: &quot;TVM&quot;,
+  &quot;phone&quot;: &quot;8863869972&quot;
+}</data>
+</log>
+<log type="Assert" name="subTest2_Get_Student_By_Id.DoExecute()" status="Pass"  at="2024-09-27 18:32:04.165"><data type="text">Status Code: 200 OK
+Response: {
+  &quot;id&quot;: &quot;5&quot;,
+  &quot;name&quot;: &quot;Sambit K&quot;,
+  &quot;location&quot;: &quot;Tvm&quot;,
+  &quot;phone&quot;: &quot;34245647896&quot;
+}</data>
+</log>
+<log type="Message" name="And extract data from resposne" status="Info"  at="2024-09-27 18:32:04.168"/>
+<log type="Assert" name="Then assert name field not null" status="Pass" comment="Sambit K!=null"  at="2024-09-27 18:32:04.170"><data type="text">AssertNotNull</data>
+<data type="text">Sambit K</data>
+</log>
+<log type="Assert" name="And check location fieldpresent or not" status="Pass" comment="Tvm!=null"  at="2024-09-27 18:32:04.172"><data type="text">AssertNotNull</data>
+<data type="text">Tvm</data>
+</log>
+<log type="Test" name="Scenario-GetUserById" status="Pass" closed="Scenario-GetUserById" _guid="undefined"  at="2024-09-27 18:32:04.175" comment="Passed:22 Failed:0 Time:2.242s" />
